@@ -5,7 +5,7 @@ import css from "./Contact.module.css";
 import { FaUser } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa6";
 
-export default function Contact({ data: { name, number } }) {
+export default function Contact({ data: { id, name, number } }) {
   const dispatch = useDispatch();
 
   return (
