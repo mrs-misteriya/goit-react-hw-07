@@ -1,0 +1,11 @@
+.searchbox{
+    display: flex;
+    flex-direction: column;  
+    width: 230px;
+    padding: 14px 0;
+}
+
+ .searchfield{
+    margin: 0;
+    padding-bottom: 5px;
+ }
