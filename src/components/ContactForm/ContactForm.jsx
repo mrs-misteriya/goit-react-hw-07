@@ -39,31 +39,18 @@ export default function ContactForm() {
     >
       <Form className={css.form}>
         <div className={css.fields}>
-          <label // htmlFor={nameFieldId}
-          >
-            Name
-          </label>
-          <Field
-            className={css.field}
-            type="text"
-            name="name"
-            // id={nameFieldId}
-          />
+          <label>Name</label>
+          <Field className={css.field} type="text" name="name" />
           <ErrorMessage className={css.error} name="name" component="span" />
         </div>
 
         <div className={css.fields}>
-          <label
-          // htmlFor={numberFieldId}
-          >
-            Number
-          </label>
+          <label>Number</label>
           <Field
             className={css.field}
             type="text"
             name="number"
             autoComplete="off"
-            // id={numberFieldId}
           />
           <ErrorMessage className={css.error} name="number" component="span" />
         </div>
